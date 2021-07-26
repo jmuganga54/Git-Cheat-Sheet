@@ -29,10 +29,34 @@
 .git status
 
 *Pushing file to github
-.git push 
+.git push origin main
 
 *Add all the file with modification + commit
 .git commit -am "message"
 
 *Pulling  repository from github to local storage
-.git pull
+.git pull origin main
+
+*if you want to keep track of all the commit performed
+.git log
+
+*If you want to reset the repository
+.git reset --hard <commit> //reset to origin
+.git reset --hard origin/master //reset to what is github
+
+/**
+BRANCHING
+*Is a way of working with different part of the repository, at the same time
+
+*To know which branch you are working on
+.git branch
+
+*To create another branch and then switche to it.
+.git checkout -b "name-of-new-branch"
+.git checkout -b style
+
+*Switch to another branch
+*We use -b to create another branch
+.git checkout -b '
+*But if you want to switch to another branch which exit, 
+.git checkout name-of-branch
