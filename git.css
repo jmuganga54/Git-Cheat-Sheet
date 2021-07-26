@@ -1,8 +1,8 @@
 /**
-*This file contain some important git command, which is assiting me has
-*cheetsheet
-*
+*This file contain some important git command, as a reminder (Cheat *Sheet)
+
 *Git is version control tool
+
 *What is Git helping us to do
 **Keep track of changes to code.
 **Synchronizes code between different people
@@ -10,7 +10,7 @@
 **Revert back to old version of code.
 
 *Github is an online platform to save all the repository.
-*Hosting code online, is like a folder which host all of your written the code.
+*Hosting code online, is like a folder which host all of your written codes.
 *So that we can access the code, and make some changes if we want.
 
 *git clone, the command which get the code file from github to local computer
@@ -24,3 +24,12 @@
 
 *commit the changes that you made, so that it can be easy to refer
 .git commit -m "message"
+
+*Knowing what is going on your repository [local]
+.git status
+
+*Pusing file to github
+.git push 
+
+*Add all the file with modification + commit
+.git commit -am "message"
