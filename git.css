@@ -28,8 +28,11 @@
 *Knowing what is going on your repository [local]
 .git status
 
-*Pusing file to github
+*Pushing file to github
 .git push 
 
 *Add all the file with modification + commit
 .git commit -am "message"
+
+*Pulling  repository from github to local storage
+.git pull
