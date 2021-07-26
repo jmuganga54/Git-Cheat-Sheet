@@ -60,3 +60,7 @@ BRANCHING
 .git checkout -b '
 *But if you want to switch to another branch which exit, 
 .git checkout name-of-branch
+
+*Merge branches
+**Make sure you are working on master branch
+.git merge style
